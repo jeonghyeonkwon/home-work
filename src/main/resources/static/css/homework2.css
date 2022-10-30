@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 50px;
+    /* background-color: gray; */
+}
+form {
+    /* background-color: antiquewhite; */
+}
+
+.money-form {
+}
+.money-form > div {
+    display: inline-block;
+}
+
+.money-content {
+    padding-top: 15px;
+}
+.money-content input {
+    width: 150px;
+    height: 25px;
+}
+.coin-form {
+    /* background-color: aqua; */
+}
+.title {
+    background-color: #fff;
+    width: 200px;
+    vertical-align: top;
+    padding: 20px;
+}
+.coin-form > div {
+    display: inline-block;
+}
+.coin-content {
+    /* background-color: aquamarine; */
+    padding-top: 16px;
+}
+.btn-group {
+}
+.btn-group button {
+    background-color: dodgerblue;
+    height: 30px;
+    font-size: larger;
+    width: 30px;
+    border: 1px solid #000;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.coin-title-form {
+    margin-top: 20px;
+    width: 100%;
+    /* background-color: beige; */
+}
+.coin-title-form label {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.coin-count-form {
+}
+.coin-count-group {
+    margin-top: 10px;
+}
+.coin-count-group input:nth-child(1) {
+}
+.coin-count-group input:nth-child(2) {
+}
+.submit-form {
+    /* background-color: cadetblue; */
+    padding: 50px 0px;
+}
+.submit-form button {
+    background-color: dodgerblue;
+    border: 1px solid blue;
+    width: 100px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+.result-form {
+    /* background-color: antiquewhite; */
+}
+.result-form h3 {
+}
+.result-form-content {
+    margin-left: 30px;
+    border: 1px solid #000;
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+}

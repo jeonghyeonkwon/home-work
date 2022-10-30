@@ -17,11 +17,13 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
     implementation 'org.springframework:spring-webmvc:5.3.23'
+    testImplementation group: 'org.springframework', name: 'spring-test', version: '5.3.23'
     implementation group: 'org.thymeleaf', name: 'thymeleaf', version: '3.1.0.RC1'
     implementation group: 'org.thymeleaf', name: 'thymeleaf-spring5', version: '3.1.0.RC1'
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.4'
-
-
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.0-rc3'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    annotationProcessor( group: 'org.projectlombok', name: 'lombok', version: '1.18.24')
 }
 
 test {

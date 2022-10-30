@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/homework2.css" />
+  <title>homework2</title>
+</head>
+<body>
+<form>
+  <div class="money-form">
+    <div class="title">
+      <label for="money">지폐금액</label>
+    </div>
+    <div class="money-content">
+      <input type="text" id="money" value="0" />
+    </div>
+  </div>
+  <div class="coin-form">
+    <div class="title">
+      <label>동전의 가지 수</label>
+    </div>
+    <div class="coin-content">
+      <div class="btn-group">
+        <button type="button" id="plus-btn">+</button>
+        <button type="button" id="minus-btn">-</button>
+      </div>
+      <div class="coin-title-form">
+        <label>동전금액</label>
+        <label>갯수</label>
+      </div>
+      <div class="coin-count-form">
+        <div class="coin-count-group">
+          <input type="text" class="coin-input" value="0" />
+          <input type="text" class="count-input" value="0" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="submit-form">
+    <button type="button">계산</button>
+  </div>
+</form>
+
+<div class="result-form">
+  <h3>출력 형식</h3>
+  <div class="result-form-content"></div>
+</div>
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
